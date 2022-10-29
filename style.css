@@ -1,0 +1,25 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  /* colors */
+  --primary: teal;
+  --white: #fdfdfd;
+  --black: #030303;
+
+  /* padding/margin */
+  --small: 1rem;
+  --large: 1.8rem;
+}
+
+body {
+  font-size: 1.4rem;
+  color: var(--primary);
+  font-family: monospace;
+}
