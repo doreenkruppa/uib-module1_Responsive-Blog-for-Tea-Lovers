@@ -23,3 +23,113 @@ body {
   color: var(--primary);
   font-family: monospace;
 }
+
+header {
+  width: 100%;
+  background-color: var(--black);
+  color: var(--white);
+  padding: var(--small);
+}
+nav {
+  text-align: center;
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+  margin: 0 var(--large);
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  padding-bottom: var(--large);
+}
+main {
+  padding: var(--large);
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: var(--small);
+}
+
+.main-content p {
+  padding-bottom: var(--large);
+}
+
+.signature-content {
+  font-style: italic;
+  padding-bottom: var(--large);
+}
+footer {
+  background-color: var(--black);
+  width: 100%;
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--large);
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+}
+footer form input {
+  margin-bottom: var(--large);
+  margin-top: var(--small);
+}
+button {
+  background-color: var(--black);
+  color: var(--white);
+  width: 60px;
+}
+footer h2 {
+  margin: var(--large) 0;
+}
+
+aside {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  main {
+    width: 800px;
+  }
+  aside {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: right;
+    margin-left: var(--large);
+    margin-top: 10px;
+  }
+  .main-content {
+    width: 65%;
+    display: inline-block;
+  }
+  ul li {
+    list-style-type: none;
+    text-align: right;
+  }
+  li a {
+    color: var(--black);
+  }
+  footer div {
+    width: 800px;
+  }
+  footer div > * {
+    text-align: center;
+  }
+  footer button {
+    width: 100%;
+  }
+}
