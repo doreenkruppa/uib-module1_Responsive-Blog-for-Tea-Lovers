@@ -1,37 +1,17 @@
-# Lets create a responsive blog for coffee lovers!
+# Responsive blog for tea lovers
+
+## Exercise Course-Module 1 - UserInterfaceBasics (UIB) - HTML/CSS
+
+Created a blog page using media queries for a mobile and desktop view oriented to the example templates below; used `mobile first` technic, classes, sections, css variables and css-display-property to hide sections when switch between views;
+
+31.10.22
 
 ## Example:
 
 - mobile:
-  ![alt-text](./image-folder/mobile-ref.png 'Reference Image Mobile')
+  ![alt-text](./image-folder/mobile-ref.png "Reference Image Mobile")
 
 - desktop:
-  ![alt-text](./image-folder/desktop-ref.png 'Reference Image Desktop')
+  ![alt-text](./image-folder/desktop-ref.png "Reference Image Desktop")
 
-## Exercise Instructions
-
-Create the following blog page using media queries for a mobile and desktop view.
-
-## Task 1:
-
-- Carefully study the `style.css` file. Use provided style variables while writing your code.
-
-- Use the example template to create a blog. Use the `mobile first` technic.
-
-## Task 2:
-
-- Use `media queries` to set the breakpoint of the view at `768px`
-
-## Task 3:
-
-- `Hide the aside section` when the breakpoint will be `less than 768px`. It should appear only when the breakpoint is higher than 768px.
-
-### Hints:
-
-- Use classes.
-- Create sections.
-- [Media Queries Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-
-- [CSS display property](https://www.w3schools.com/cssref/pr_class_display.asp)
-
-- [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+Image-Source: Photo by Gaelle Marcel on "https://unsplash.com/photos/red-ceramic-bowl-filled-with-water-beside-lime-and-honey-9hG-jRmlTm8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
