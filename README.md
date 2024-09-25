@@ -8,7 +8,7 @@ Created a blog page using media queries for a mobile and desktop view oriented t
 
 ### my desktop version:
 
-![my_desktop](./images/my_desktop_version.png)
+![my_desktop](./image-folder/my_desktop_version.png)
 
 ### my mobile version:
 
